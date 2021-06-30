@@ -1,0 +1,711 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 100px) and (max-width: 480px) {
+  /* css */
+  .menu {
+    padding: 10px 5px;
+  }
+
+  .navbar-brand {
+    margin-top: -17px;
+  }
+
+  .navbar-brand img {
+    width: 165px;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  /*  banner*/
+  .inner-banner {
+    padding: 30px 0px 45px;
+  }
+
+  /* banner */
+  .inner-item h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .inner-item p br {
+    display: none;
+  }
+  .inner-item p {
+    font-size: 13px;
+    line-height: 23px;
+    margin: 15px 0px;
+  }
+  .inner-item .btn-secondary {
+    font-size: 14px;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  /* services */
+  .services {
+    padding: 0px 0px 30px;
+  }
+  .title {
+    padding-bottom: 30px;
+  }
+  .title h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 10px 0px 25px;
+  }
+  .title p br {
+    display: none;
+  }
+  .title p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  /* services */
+  .services-item {
+    margin-bottom: 30px;
+  }
+  .services-item .top-img {
+    padding: 0px 5px;
+  }
+  .services-item .services-btn .fas {
+    margin-left: 15px;
+  }
+
+  /* about */
+  .about {
+    padding: 20px 0px 30px;
+    border-top: 1px solid #3333;
+  }
+  .inner-about {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .inner-about h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0px 0px 10px;
+  }
+  .inner-about p br {
+    display: none;
+  }
+  .inner-about p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .inner-about .btn-secondary {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 16px 10px 20px;
+    margin-top: 0px;
+  }
+  /* recent work */
+  .recent-work {
+    padding: 0px 0px 40px;
+  }
+  .recent-work .title {
+    padding: 0px;
+  }
+
+  .works-name li {
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 8px 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .portfolio-items {
+    margin-top: 20px;
+  }
+  /* ALL modal */
+  .modal-body img {
+    width: 100%;
+  }
+  /* features */
+  .features {
+    padding: 0px 0px 40px;
+    border-bottom: 1px solid #999;
+  }
+  .features .title {
+    padding-bottom: 20px;
+  }
+  .features-item {
+    margin-bottom: 10px;
+  }
+  .features-item .item-top {
+    flex-direction: column;
+  }
+  .features-item .icon {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .features-item h4 {
+    margin-left: 10px;
+  }
+  .features-item p {
+    text-align: center;
+  }
+  /* Team */
+  .team {
+    padding: 40px 0px;
+    background-position: center right;
+  }
+  .team-item {
+    margin-bottom: 25px;
+  }
+  /* prcing */
+  .pricing {
+    padding: 0px 0px 40px;
+  }
+  .pricing .pricing-item {
+    margin-bottom: 35px;
+  }
+  /* adds */
+  .adds {
+    padding: 40px 0px;
+    padding-left: 20px;
+  }
+  .adds h6 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .adds .ads-btn {
+    margin-top: 10px;
+  }
+  .adds .ads-btn {
+    font-size: 13px;
+    padding: 10px 28px;
+  }
+  /* info */
+  .info {
+    padding: 40px 0px;
+  }
+  .inner-info {
+    padding: 20px;
+  }
+  .inner-info .info-content h5 {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .inner-info .info-content h6 {
+    margin: 10px 0px 16px;
+  }
+  .inner-info .info-content p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .inner-info .info-content p:last-of-type {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  #owl-two .owl-nav {
+    position: static;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  #owl-two .nav-btn h1 {
+    writing-mode: horizontal-tb;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+  #owl-two .nav-btn.next-slide {
+    position: static;
+  }
+  #owl-two .nav-btn.prev-slide {
+    position: static;
+  }
+  .forbers .ber-b2 {
+    display: none;
+  }
+  /* contact */
+  .contact {
+    width: 100%;
+    padding: 40px 0px;
+    border-top: 1px solid #999;
+  }
+  .inner-contact .top-text {
+    top: -12px;
+    padding: 0px 10px;
+  }
+  .inner-contact .top-text h4 {
+    font-size: 19px;
+  }
+  .inner-contact {
+    padding: 40px 15px 0px;
+  }
+  .main-form .form-control {
+    margin-bottom: 10px;
+  }
+
+  /* footer */
+  .inner-footer .footer-social {
+    margin: 15px 0px 0px;
+  }
+  .inner-footer .title p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+  }
+  .inner-footer .footer-social li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    margin: 0px 6px;
+  }
+  .footer-bottom {
+    padding: 10px 0px;
+  }
+  .footer-bottom .copyright {
+    text-align: center;
+    font-size: 11px;
+  }
+  .footer-bottom ul li a {
+    font-size: 12px;
+    margin: 10px 7px 0px;
+  }
+  .footer-bottom ul {
+    text-align: center;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* css */
+  .menu {
+    padding: 12px 5px;
+  }
+
+  .navbar-brand {
+    margin-top: -17px;
+  }
+
+  .navbar-brand img {
+    width: 165px;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  /*  banner*/
+  .inner-banner {
+    padding: 30px 0px 30px;
+  }
+
+  .inner-item h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .inner-item p br {
+    display: none;
+  }
+  .inner-item p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 18px 0px;
+  }
+  .inner-item .btn-secondary {
+    font-size: 14px;
+    padding: 13px 25px 11px 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  /* services */
+  .services {
+    padding: 0px 0px 40px;
+  }
+  .title {
+    padding-bottom: 40px;
+  }
+  .title h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 10px 0px 25px;
+  }
+  .title p br {
+    display: none;
+  }
+  .title p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  /* services */
+  .services-item {
+    margin-bottom: 30px;
+  }
+  .services-item .top-img {
+    padding: 0px 5px;
+  }
+  .services-item p br {
+    display: none;
+  }
+  .services-item .services-btn .fas {
+    margin-left: 15px;
+  }
+
+  /* about */
+  .about {
+    padding: 20px 0px 30px;
+    border-top: 1px solid #3333;
+  }
+  .inner-about {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .inner-about h2 {
+    font-size: 29px;
+    line-height: 39px;
+    margin: 0px 0px 10px;
+  }
+  .inner-about p br {
+    display: none;
+  }
+  .inner-about p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .inner-about .btn-secondary {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 16px 10px 20px;
+    margin-top: 0px;
+  }
+  /* recent work */
+  .recent-work {
+    padding: 0px 0px 40px;
+  }
+  .recent-work .title {
+    padding: 0px 0px 1px;
+  }
+
+  .works-name li {
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 8px 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .portfolio-items {
+    margin-top: 20px;
+  }
+  /* ALL modal */
+  .modal-body img {
+    width: 100%;
+  }
+  /* features */
+  .features {
+    padding: 0px 0px 40px;
+    border-bottom: 1px solid #999;
+  }
+  .features .title {
+    padding-bottom: 20px;
+  }
+  .features-item {
+    margin-bottom: 10px;
+  }
+  .features-item .item-top {
+    flex-direction: column;
+  }
+  .features-item .icon {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .features-item h4 {
+    margin-left: 10px;
+  }
+  .features-item p {
+    text-align: center;
+  }
+  /* Team */
+  .team {
+    padding: 40px 0px;
+    background-position: center right;
+  }
+  .team-item {
+    margin-bottom: 25px;
+  }
+  /* prcing */
+  .pricing {
+    padding: 0px 0px 40px;
+  }
+  .pricing .pricing-item {
+    margin-bottom: 35px;
+  }
+  /* adds */
+  .adds {
+    padding: 40px 0px;
+    padding-left: 20px;
+  }
+  .adds h6 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .adds .ads-btn {
+    margin-top: 10px;
+  }
+  .adds .ads-btn {
+    font-size: 13px;
+    padding: 12px 50px;
+  }
+  /* info */
+  .info {
+    padding: 40px 0px;
+  }
+  .inner-info {
+    padding: 25px;
+  }
+  .inner-info .info-content h5 {
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .inner-info .info-content h6 {
+    margin: 10px 0px 16px;
+  }
+  .inner-info .info-content p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .inner-info .info-content p:last-of-type {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  #owl-two .owl-nav {
+    position: static;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  #owl-two .nav-btn h1 {
+    writing-mode: horizontal-tb;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+  #owl-two .nav-btn.next-slide {
+    position: static;
+  }
+  #owl-two .nav-btn.prev-slide {
+    position: static;
+  }
+  .forbers .ber-b2 {
+    display: none;
+  }
+
+  #owl-two .owl-nav {
+    position: static;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  #owl-two .nav-btn h1 {
+    writing-mode: horizontal-tb;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+  #owl-two .nav-btn.next-slide {
+    position: static;
+  }
+  #owl-two .nav-btn.prev-slide {
+    position: static;
+  }
+  .forbers .ber-b2 {
+    display: none;
+  }
+  /* contact */
+  .contact {
+    width: 100%;
+    padding: 40px 0px;
+    border-top: 1px solid #999;
+  }
+  .inner-contact .top-text {
+    top: -14px;
+    padding: 0px 10px;
+  }
+  .inner-contact .top-text h4 {
+    font-size: 21px;
+  }
+  .inner-contact {
+    padding: 40px 15px 0px;
+  }
+  .main-form .form-control {
+    margin-bottom: 10px;
+  }
+
+  /* footer */
+  .inner-footer .footer-social {
+    margin: 15px 0px 0px;
+  }
+  .inner-footer .title p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+  }
+  .inner-footer .footer-social li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 0px 6px;
+  }
+  .footer-bottom {
+    padding: 10px 0px;
+  }
+  .footer-bottom .copyright {
+    text-align: center;
+    font-size: 14px;
+  }
+  .footer-bottom ul li a {
+    font-size: 14px;
+    margin: 10px 7px 0px;
+  }
+  .footer-bottom ul {
+    text-align: center;
+  }
+
+  /* end */
+}
+/* simple fixed */
+@media (min-width: 768px) and (max-width: 880px) {
+  .inner-info {
+    width: 92%;
+  }
+  #owl-two .owl-nav {
+    right: -56px;
+  }
+  .forbers .ber-b2 {
+    right: -21px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* css */
+  .menu {
+    padding: 10px 0px;
+  }
+
+  .navbar-brand {
+    margin-top: -17px;
+  }
+
+  .navbar-brand img {
+    width: 200px;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  .inner-banner {
+    padding: 70px 0px;
+  }
+  .services {
+    padding: 0px 0px 60px;
+  }
+  .title {
+    padding-bottom: 60px;
+  }
+  .title h2 {
+    margin: 15px 0px 20px;
+  }
+  .title p br {
+    display: none;
+  }
+  .services-item {
+    margin-bottom: 40px;
+  }
+  .about {
+    padding: 0px 0px 60px;
+  }
+  .inner-about h2 {
+    margin: 0px 0px 16px;
+  }
+  .inner-about p br {
+    display: none;
+  }
+  .recent-work .title {
+    padding-bottom: 31px;
+  }
+  .features .title {
+    padding-bottom: 35px;
+  }
+  .team .team-item {
+    margin-top: 25px;
+  }
+  .pricing .pricing-item {
+    margin-top: 30px;
+  }
+  .info {
+    padding: 60px 0px;
+  }
+  .inner-info {
+    padding: 30px 20px;
+  }
+  .inner-info .info-content p br {
+    display: none;
+  }
+  .inner-info .info-content p {
+    width: 100%;
+  }
+  .inner-info .info-content p:last-of-type {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .contact {
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .footer-bottom .copyright {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .footer-bottom ul li a {
+    font-size: 14px;
+    margin: 0px 8px;
+  }
+  /* end */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  /* css */
+  .title p br {
+    display: none;
+  }
+  .inner-about p br {
+    display: none;
+  }
+  .services-item p br {
+    display: none;
+  }
+  .footer-bottom ul li a {
+    font-size: 15px;
+    margin: 0 19px;
+  }
+  /* end */
+}
